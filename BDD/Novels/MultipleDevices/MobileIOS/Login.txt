@@ -1,0 +1,6 @@
+include UserData.json,Xpath.json NEW
+test webapplication
+open Jenkins GUI
+LookFor UserNameField and Enter username
+LookFor PasswordField and Enter password
+LookFor ClickButton and Click

@@ -1,0 +1,18 @@
+{
+    "line": {
+        "open": "driver.get(\"variable\")",
+        "LookFor": "driver.find_element_by_xpath(\"variable\")",
+        "Enter": ".send_keys(\"variable\")",
+        "Click": ".click()",
+        "variable": "tmp"
+    },
+    "pera": {
+        "test": {
+            "webapplication": [
+                "from selenium import webdriver",
+                "driver=webdriver.Chrome(\"C:\\\\git\\\\cavisson\\\\automation\\\\sel_jenkins\\\\chromedriver\")"
+            ],
+            "": ""
+        }
+    }
+}

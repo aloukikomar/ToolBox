@@ -1,0 +1,166 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.shortcuts import render
+from django.http import HttpResponse,HttpResponseRedirect
+import os
+import paramiko
+
+TestCasesDir="/home/automation/workbench/automation/netocean/smoke/testcases/"
+LogToolBoxRunTests="/tmp/LOG_TOOLBOX_RUNTESTS"
+hostname="10.10.30.185"
+username="cavisson"
+password="cavisson"
+readersFile="/home/automation/webapp/ToolBox/tmp/readers"
+writersFile="/home/automation/webapp/ToolBox/tmp/writers"
+hostname="10.10.30.23"
+username="root"
+password="C@VAdmin123!!"
+readersFile="/net/cvsroot/CVSROOT/readers"
+writersFile="/tmp/writers_tools"
+
+
+def index(request):
+	return HttpResponse("<h1>Tools</h1>")
+
+def home(request):
+	try:
+    		ssh = paramiko.SSHClient()
+    		ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    		ssh.connect(hostname,username=username , password=password)
+    		print "Conncet to %s"%hostname
+    		print "connected"
+	except Exception as e :
+    		print e.message
+		final_output="error to connect"
+
+	try:
+    		print "Following is the readers file"
+    		stdin, stdout, stderr = ssh.exec_command('cat {}'.format(readersFile))
+    		err = ''.join(stderr)
+    		out = ''.join(stdout)
+    		final_output = str(out) + str(err)
+        except Exception as e:
+                print e.message
+                final_output="error to cat"
+
+	try:
+                print "Following is the writers file"
+                stdin, stdout, stderr = ssh.exec_command('diff {} {}|grep \> |cut -d " " -f2'.format(readersFile,writersFile))
+                err = ''.join(stderr)
+                out = ''.join(stdout)
+                final_outputW = str(out) + str(err)
+
+	except Exception as e:
+    		print e.message
+		final_outputW="error to cat"
+	listofreaders=final_output.split("\n")
+	listofWriters=final_outputW.split("\n")
+	print(request.POST.get('formlabel', None))
+        return render(request,'Tools/home.html',{'listofreaders':listofreaders,'listofWriters':listofWriters})
+
+def enableS(request):
+	if request.method == 'POST':
+		print("Found request enable")
+		name=request.POST['UserNameE']
+        	try:
+                	ssh = paramiko.SSHClient()
+                	ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+                	ssh.connect(hostname,username=username , password=password)
+                	print "Conncet to %s"%hostname
+                	print "connected"
+        	except Exception as e :
+                	print e.message
+                	final_output="error to connect"
+
+		try:
+	                print "peerforming enable for single persone"
+        	        stdin, stdout, stderr = ssh.exec_command("sed -i '/{}$/d' {}".format(name,readersFile))
+                	err = ''.join(stderr)
+                	out = ''.join(stdout)
+                	final_output2 = str(out) + str(err)
+			print(final_output2)
+   			print "Following is the writers file"
+ 	    	except Exception as e:
+                	print e.message
+                	final_output="error to cat"
+			print(name)
+	return HttpResponseRedirect("/Tools/home")
+
+
+def disableS(request):
+        if request.method == 'POST':
+                print("in")
+                name=request.POST['UserNameD']
+                try:
+                	ssh = paramiko.SSHClient()
+                	ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+                	ssh.connect(hostname,username=username , password=password)
+                	print "Conncet to %s"%hostname
+                	print "connected"
+        	except Exception as e :
+                	print e.message
+                	final_output="error to connect"
+
+		try:
+                        print "peerforming enable for single persone"
+                        stdin, stdout, stderr = ssh.exec_command('echo -e  "{}" >>{} '.format(name,readersFile))
+                        err = ''.join(stderr)
+                        out = ''.join(stdout)
+                        final_output2 = str(out) + str(err)
+                        print(final_output2)
+                        print "Following is the writers file"
+                except Exception as e:
+                        print e.message
+                        final_output="error to cat"
+                        print(name)
+	return HttpResponseRedirect("/Tools/home")
+
+def enableAll(request):
+	if request.method == 'POST':
+                try:
+                        ssh = paramiko.SSHClient()
+                        ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+                        ssh.connect(hostname,username=username , password=password)
+                        print "Conncet to %s"%hostname
+                        print "connected"
+                except Exception as e :
+                        print e.message
+                        final_output="error to connect"
+		try:
+    			print "Going to enable commit on CVS server"
+    			stdin, stdout, stderr = ssh.exec_command('bash /net/cvsroot/CVSROOT/commit_write')
+    			err = ''.join(stderr.readlines())
+    			out = ''.join(stdout.readlines())
+    			final_output = str(out) + str(err)
+    			print final_output
+		except Exception as e:
+                        print e.message
+                        final_output="error to cat"
+                        print(final_output)
+	return HttpResponseRedirect("/Tools/home")
+
+def disableAll(request):
+	if request.method == 'POST':
+                try:
+                        ssh = paramiko.SSHClient()
+                        ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+                        ssh.connect(hostname,username=username , password=password)
+                        print "Conncet to %s"%hostname
+                        print "connected"
+                except Exception as e :
+                        print e.message
+                        final_output="error to connect"
+		try:
+    			print "Going to dissable_commit on cvs server"
+    			stdin, stdout, stderr = ssh.exec_command('sh /net/cvsroot/CVSROOT/freez_read')
+    			err = ''.join(stderr.readlines())
+    			out = ''.join(stdout.readlines())
+    			final_output = str(out) + str(err)
+                except Exception as e:
+                        print e.message
+                        final_output="error to cat"
+                        print(final_output)
+	return HttpResponseRedirect("/Tools/home")
+
+# Create your views here.

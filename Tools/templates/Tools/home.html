@@ -1,0 +1,205 @@
+{% extends "RunTests/header.html" %}
+{% block content %}
+
+<script>
+$(document).ready(function(){
+$("input").click(function(){
+        $(this).next().show();
+        $(this).next().hide();
+    });
+
+});
+
+function myFunction(info) {
+    var x,text,div;
+	if(info == 1){
+		text=[{%for list in listofreaders%}'{{list}}',{%endfor%}];
+		x = document.getElementById("UserNameE").value;
+	}
+	else{
+		text=[{%for list in listofWriters%}'{{list}}',{%endfor%}];
+		x = document.getElementById("UserNameD").value;
+	}
+	div="demo"+info;
+
+    // Get the value of the input field with id="UserNameE"
+    	if (text.indexOf(x) >= 0 && x != "" && info == 1) {
+		document.getElementById("EnableS").submit();
+	    } 
+	else {
+	if (text.indexOf(x) >= 0 && x != "") 
+	{
+		document.getElementById("DisableS").submit();
+	}
+	else{
+		text = "Input is Not valid";
+       		document.getElementById(div).innerHTML = text;
+		}
+    	}
+}
+</script>
+<style>
+	.borde{
+		border: 1px solid black;
+    		border-radius: 3px;	
+		
+		}
+	.commit{
+		height : 450px;
+		width  : 96%;
+		margin-left:2%;
+		padding : 1%;
+		box-shadow:2px 2px 2px #888888;
+		}
+	.list  {
+		padding:1%;
+		padding-left:3%;
+                background-color:black;
+                color:white;		
+		height:340px;
+                overflow:auto;
+		}
+	.eventlog{
+		padding:2%;
+		height:150px;
+		width:100%;
+		background-color:black;
+                color:white;
+		}
+	.log{
+		height:80px;
+	}
+	.drop{
+		padding:1%;
+		height:30px;
+		width :55%;
+		}
+	.able{
+                
+                margin:1px;
+                height:30px;
+                width:100%;
+		border-style:none;
+                background-color:#f4f4f7;
+		box-shadow:1px 1px 1px #888888;
+		
+        }
+	 .en:hover{
+		color: white;
+                background: linear-gradient(#228E01, #0DDD05);
+                transition: .15s;
+                border: 1px solid white;
+                transform: scale(1.001, 1.1)
+       }
+	.dis:hover{
+		color: white;
+                background: linear-gradient(#CD0A05, #FF0F05);
+                transition: .15s;
+                border: 1px solid white;
+                transform: scale(1.001, 1.1);
+        }
+
+	.singleC{
+		width : 43%;
+		}
+	.borde:hover{
+		border: 1px solid black;
+                border-radius: 1px;	
+			}
+	.whiteboard{
+			background-color:white;
+			color:green;
+			border-radius:5px;
+			border: 1px solid grey;
+		}
+	.demo{
+		
+		height:20px;
+		color:red;
+		}
+	.half {
+		width:27%;
+		pading-right:1px;
+		}
+</style>
+<h3>Tools</h3>
+<hr>
+<div class="commit borde">
+                  <h4>Commit Box</h4>
+        <hr>
+	<div class="row">
+        	<div class="col-sm-5 pans">
+			<form class="" action="EnableS" method="POST" name="EnableS" id="EnableS">
+			{% csrf_token %}
+			<input placeholder="CVSUser" id="UserNameE"class="drop half border" name="UserNameE" list="namelist">
+			<datalist id="namelist">
+			{% for names in listofreaders%}
+			<option value="{{names}}">
+			{%endfor%}
+			</datalist>
+			<input placeholder="Time" id="UserTime" class="drop half border" name="UserTime" list="timeSlot">
+			<datalist id="timeSlot">
+			<option value="15 mins">
+			<option value="30 mins">
+			<option value="60 mins">
+			<option value="120 mins">
+			<option value="Indefinate">
+			</datalist>
+			<input type="button" value="Enable Commit" class="en able singleC border" onclick="myFunction(1)">
+			</form><div class="demo" id="demo1"></div>
+			<form class="" action="DisableS" method="POST" name="DisableS" id="DisableS">
+			{% csrf_token %} 
+                        <input placeholder="CVSUser" id="UserNameD" list="namelistD" class="drop border" name="UserNameD">
+			<datalist id="namelistD">
+                        {% for names in listofWriters %}
+                        <option value="{{names}}">
+                        {%endfor%}
+			</datalist>
+                        </select>
+                        <input type="button" value="Disable Commit" class="dis able singleC border" onclick="myFunction(2)">
+                        </form><div class="demo" id="demo2"></div>
+			<form class="" action="EnableAll" method="POST" name="EnableAll"><input type="submit" name="EnableAll" value="Enable All" class="en able border">{% csrf_token %}</form>
+                        <br>
+			<form class="" action="DisableAll" method="POST" name="DisableAll"><input type="submit" name="DisableAll" value="Disable All" class="dis able border">{% csrf_token %}</form>
+			<br>
+			<div class="eventlog">
+			<h5>Event Log:</h5>
+			<div class="row">
+                                <div class="col-sm-6">
+                                        <div class="list log whiteboard" data-toggle="tooltip" title="Last Task performed">
+                                        {% for Logs in processLog %}
+                                        {{Logs}}<br>
+                                        {%endfor%}
+                                        </div>
+                                </div>
+                                 <div class="col-sm-6">
+                                        <div class="list log">
+                                        {% for LogsAll in processLogAll %}
+                                        {{LogsAll}}<br>
+                                        {%endfor%}
+                                        </div>
+                                </div>
+
+                        </div>
+			</div>
+        	</div>
+		<div class="col-sm-3 pans">
+			<b>Readers :</b>
+			<div class="list">
+			{% for names in listofreaders%}	
+			{{names}}<br>
+			{%endfor%}
+			</div>
+		</div>
+		<div class="col-sm-4 pans">
+			<b>Eanbled :</b>	
+                        <div class="list">
+                        {% for names in listofWriters%}
+                        {{names}}<br>
+                        {%endfor%}
+                        </div>
+                </div>
+	</div>
+</div>
+{% endblock %}
+

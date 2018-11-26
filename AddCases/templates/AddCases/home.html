@@ -1,0 +1,208 @@
+{% extends "RunTests/header.html" %} {% block content %}
+<style>
+    #sidebarK {
+        color: white;
+        top: 50px;
+        height: 100%;
+        width: 210px;
+        position: fixed;
+        right: 0px;
+        overflow: auto;
+        background-color: #222
+    }
+    
+    .nopad {
+        padding: 0px !important;
+    }
+    
+    .TC {
+        padding: 1%;
+        width: 100%;
+        background-color: rgb(252, 252, 252);
+        box-shadow: 0px 1px 1px rgb(21, 19, 24);
+    }
+    
+    .incheck {
+        margin: 2px;
+    }
+    
+    .list {
+        height: 420px;
+        overflow: auto;
+    }
+    
+    .console {
+        height: 420px;
+        overflow: auto;
+        background-color: black;
+        color: white;
+    }
+    
+    .stop {
+        color: white;
+        margin: 1px;
+        height: 30px;
+        width: 100%;
+        background-color: #CD0A05;
+        border-style: none;
+    }
+    
+    .stop:hover {
+        background: linear-gradient(#CD0A05, #FF0F05);
+        transition: .15s;
+        border: 1px solid white;
+        transform: scale(1.001, 1.1);
+    }
+    
+    .start {
+        color: white;
+        margin: 1px;
+        height: 30px;
+        width: 100%;
+        background-color: #228E01;
+        border-style: none;
+    }
+    
+    .start:hover {
+        background: linear-gradient(#228E01, #0DDD05);
+        transition: .15s;
+        border: 1px solid white;
+        transform: scale(1.001, 1.1);
+    }
+    
+    .pan {
+        padding: 1%;
+    }
+    
+    .Libpanel {
+        margin: 2%;
+        height: 400px;
+    }
+    
+    .border {
+        border: 3px grey solid;
+        border-radius: 10px;
+    }
+    
+    .LibOp {
+        width: 100%;
+        padding: 1%;
+        height: 150px;
+        padding-top: 10%;
+    }
+    
+    .Liboptions {
+        list-style-type: none;
+        width: 100%;
+        height: 30px;
+        padding: 3%;
+    }
+    
+    .Liboptions:hover {
+        color: rgb(0, 174, 255);
+        border-left: 3px solid #222;
+        transition: .35s;
+        transform: scale(1.001, 1.1)
+    }
+    
+    .discription {
+        height: 235px;
+    }
+    
+    .DisplayTab {
+        width: 100%;
+        height: 200px;
+        border: 1px solid rgba(34, 34, 34, 0.295);
+        overflow: auto;
+    }
+    
+    .DisplayTabOptions {
+        position: static;
+        width: 100%;
+        height: 30px;
+    }
+    
+    .DisplayTabOptions:hover {
+        color: rgb(0, 174, 255);
+        font-weight: bold;
+        transition: .15s;
+    }
+    
+    .formLib {
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    .AddOption {
+        color: white;
+        margin: 2px;
+        margin-top: 1%;
+        height: 30px;
+        width: 100%;
+        background-color: #222;
+        border-style: none;
+    }
+    
+    .AddOption:hover {
+        background: linear-gradient(#222, grey);
+        transition: .15s;
+        border: 1px solid white;
+        transform: scale(1.001, 1.1)
+    }
+</style>
+<div id="sidebarK" class="">
+    help:
+    <marquee>Help is always given to those who ask for it.</marquee>
+</div>
+<div class="HAD">
+    <h3><b>Library</b></h3>
+</div>
+
+<ul class="nav nav-tabs nav-justified">
+    <li class="active"><a data-toggle="tab" href="#Novel">Novel</a></li>
+    <li><a data-toggle="tab" href="#Iterations">Chapters</a></li>
+    <li><a data-toggle="tab" href="#Pages">Pages</a></li>
+    <li><a data-toggle="tab" href="#View">View</a></li>
+</ul>
+
+<div class="tab-content">
+    <div id="Novel" class="pan tab-pane fade in active">
+        {% include 'AddCases/Novels.html' %}
+    </div>
+    <div id="Iterations" class="pan tab-pane fade">
+        {% include 'AddCases/Chapters.html' %}
+    </div>
+    <div id="Pages" class="pan tab-pane fade">
+        {% include 'AddCases/Pages.html' %}
+    </div>
+    <div id="View" class="pan tab-pane fade">
+        {% include 'AddCases/View.html' %}
+    </div>
+</div>
+<script>
+    function ToggleName(content) {
+        var x = document.getElementById(content);
+        if (x.checked) {
+            var elem1 = document.createElement('tr');
+            elem1.setAttribute("id", content + "R")
+            document.getElementById("SelctedChapters").appendChild(elem1);
+        } else {
+            var elem1 = document.getElementById(content + "R");
+            document.removeChild(elem1);
+        }
+
+    }
+
+    function AddNovel() {
+        var urldata = "/AddCases/AddNovelForm"
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("LibForm").innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET", urldata, true);
+        xhttp.send();
+    }
+</script>
+{% endblock %}

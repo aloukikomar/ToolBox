@@ -1,0 +1,159 @@
+archi
+
+    1.o 1.1 two -binary protocol stream level 
+feature
+
+header
+    -|--
+     |
+     |---
+redirection
+caching
+cooking
+
+
+NS - Proxy - NO 
+---------------
+machines  
+NS    :216.244.79.130  
+NO    :216.244.81.50
+proxy :34.220.173.103
+----------
+NetStorm 
+script    : GDriveUploadFile ( login -> drive -> upload -> share -> logout)
+scenarios : proxy.conf (testing) SymentecMain.conf (final)
+----------
+NetOcean
+recording : Bug 51007 - Unable to do recording of "google drive" , because endpoint is getting redirects
+manual    : 25+ covering allmost all aspects 
+----------
+Tests & Reports
+TR1077 - 15 mins 
+TR1083 - 30 mins 
+- verified response from page dumps (NS)
+- verified hits form trace logs (NO)
+- monitors of NS & NO contain data
+- verification of response time for different request done
+
+
+file PageName changes
+---------------------
+index	GDriveHome
+files_json	GDriveFilesJson
+ServiceLogin_2	GDriveServiceLogin
+index_2	GDriveDiagnostics
+lookup	GDriveSigninLookup
+m_sy4d_sy4h_sy4i_sy5u_sy5w_s	GDriveGetSy4d
+challenge	GDriveSigninChallenge
+challenge_2	GDriveSigninChallenge2
+index_3	GDriveDiagnostics2
+CheckCookie	GDriveCheckCookie
+ServiceLogin	GDriveSigninOptionsRecovery
+ServiceLogin_3	GDriveServiceLogin2
+get	GDriveBotguardGet
+count	GDriveNotificationsCount
+about	GDriveAbout
+apps	GDriveApps
+apps_2	GDriveApps2
+my_drive	GDriveMyDrive
+settings	GDriveSettings
+files	GDriveFiles
+permissions	GDrivePermissions
+drive	GDriveBatchDrive
+items	GDriveItems
+about_2	GDriveAbout2
+quickAccessPromoShownCount	GDrivePromoCount
+drive_2	GDriveBatchDrive2
+jserror_2	GDriveJSError
+m_sy5v_sybg_sye9_sy5w_sybf_s	GDriveSy5v
+drive_3	GDriveBatchDrive3
+viewerimpressions	GDriveViewerImpressions
+files_2	GDriveFiles2
+logImpressions	GDriveLogImpressions
+generateIds	GDriveGenerateIds
+files_3	GDriveUploadStart
+about_3	GDriveAbout3
+drive_4	GDriveBatchDrive4
+permissions_2	GDriveUploadPermissions
+X7ZrVqefafLyIFmCrAabjuWDMnwu	GDriveUploadPreview
+permissions_3	GDriveUploadPermissions2
+upload	GDriveViewerNGUpload
+meta	GDriveViewerNGMeta
+text	GDriveViewerNGText
+shareId	GDriveShare
+logImpressions_2	GDriveSharingLogImpressions
+contactstorequery	GDriveContactStoreQuery
+contactstorequery_2	GDriveContactStoreQuery2
+stat	GDriveSharingStat
+contactstorequery_3	GDriveContactStoreQuery3
+viewerimpressions_2	GDriveViewerImpressions2
+profile	GDriveSharingProfile
+commonshare	GDriveSharingCommon
+logImpressions_3	GDriveSharingLogImpressions2
+logImpressions_4	GDriveSharingLogImpressions3
+drive_5	GDriveBatchDrive5
+X3Futm_source_3Den_US_26pli_	GDriveLogout
+pwd	GDriveLoginScreen
+
+/o/oauth2/postmessageRelay
+
+Load Test :
+-----------
+TR       : 1130
+script   : GDriveUploadAndShare
+scenario : SymentecMain
+
+Discription :
+flow-  NS -> Proxy -> NO
+users- 1500 (500 rampup at every 5 mins)
+
+GDriveServiceLogin Issue resolved:
+The trace was on and as the service responce file was large it impacted heavly 
+After removing it no such issue both the services are working fine with response of 0.005 approx(add service response now)
+
+Time Out Issue resolved:
+The services when hit from browser showed Multiple contentlength ,hence removed content length headres
+After removing it no such issue all 4 services are working fine no time outs
+
+every thing else seems fine but will analyse in depth in the morning 
+and would meetup accordingly 
+
+Load Test :
+-----------
+TR       : 1153
+script   : GDriveUploadAndShare
+scenario : SymantecNsToNo
+
+Discription :
+flow-  NS -> NO
+users- 10000 (2000 rampup at every 5 mins)
+
+
+
+Unable compression of correlation services 
+run ns to no test with increased sessinon pasing 3000+
+convert to http or get certificate 
+
+remove all unwanted testrun and on daily bases
+
+after analysis run with single ramp up after duration is reached moniter it and add runnig test(rtc)
+
+
+ipsec -3 to 1 with lesser load (2000)
+
+runwit symantec proxy 
+
+setup demo of replay access log 
+
+
+java gc
+software developer
+
+Brushed up with skills in working relations of a technical environment and expirencied in problem solving with languages like python , c++ and shell backed up by creative mind to design web fronts based on Django and bootstrap 
+
+
+
+
+
+
+test matrices /service statuse 

@@ -1,0 +1,2242 @@
+nohup: ignoring input
+[29/Oct/2018 05:50:56] "GET /Tools/home HTTP/1.1" 200 4909
+[29/Oct/2018 05:50:56] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 37045
+[29/Oct/2018 05:50:56] "GET /static/js/bootstrap.js HTTP/1.1" 200 69707
+[29/Oct/2018 05:50:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[29/Oct/2018 05:50:57] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+Not Found: /favicon.ico
+[29/Oct/2018 05:50:57] "GET /favicon.ico HTTP/1.1" 404 2293
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 05:50:45
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 05:54:32] "GET /Tools/home HTTP/1.1" 200 4909
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 05:54:28
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 05:55:06] "GET /Tools/home HTTP/1.1" 200 4909
+[29/Oct/2018 05:55:08] "GET /Tools/home HTTP/1.1" 200 4909
+[29/Oct/2018 05:55:15] "POST /Tools/EnableS HTTP/1.1" 200 4909
+[29/Oct/2018 05:55:31] "POST /Tools/EnableS HTTP/1.1" 200 3863
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 05:55:04
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+Following is the writers file
+
+me
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+Following is the writers file
+
+me
+[29/Oct/2018 05:58:35] "POST /Tools/EnableS HTTP/1.1" 200 41285
+[29/Oct/2018 05:58:48] "GET /Tools/home HTTP/1.1" 200 41285
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 05:56:40
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+Following is the writers file
+deepika.mohadikar
+anil
+neeraj
+jagjeet.kaur
+arun
+jyoti
+jai
+neerajr
+achint
+ankit
+shalu
+manish
+abhishek
+uday
+shakti
+bibhu
+ambrish.kumar
+manpreet.kaur
+naveen
+narendra
+anil.chaudhary
+sumant
+ashwini
+srikanth.neelam
+satendra
+saurabh
+amrendra
+kanchan
+narendra
+kushal
+krishna.tayal
+rajesh.kumar
+kumar.rajesh
+karuna.saxena
+jagat.singh
+itisha.sachan
+saurabh.singhal
+nitesh.prashar
+ajit.singh
+saurabh.mathur
+suman
+manish.prasad
+prashant
+akshay.garg
+rabi.narayan
+ranjeet.maurya
+anurag.awasthi
+anjali.singh
+tuhin.kishore
+sudhir
+sanjay.kumar
+nikita.singh
+nishank.tyagi
+shyam.mohan
+vandna.goyal
+atul.sharma
+shikha.prasad
+ashish.durgapal
+sandeep.gupta
+eshu.goel
+jitesh.sehgal
+yograj
+ratesh.goyal
+rajesh.vishwakarma
+rakesh.kumar
+alok.shrivastava
+akansha.sharma
+vivek.lal
+rahul.gupta
+ratesh.goyal
+amit.sharma
+nishi.mishra
+akansha.sharma
+pooja.singh
+aditya.goyal
+rajat.sharma
+saumya.dubey
+neha.garg
+akashdeep.gupta
+surya.narayan
+kamal.gupta
+automation
+siddhant.talan
+tarun.singh
+shruti.vaish
+abhishweta.mohapatra
+priyank.gahtori
+tarun.singh
+kalpana.kumari
+vipul.saini
+abhishek.raj
+jharana.sa
+devendar.jain
+vaibhav.mittal
+sunil.bhardwaj
+anubhav.kumar
+vivek.dhiman
+harendra.kumar
+sandeep.shah
+preety.yadav
+suresh.thapliyal
+sachin.kumar
+lucky.kumar
+aditya.goyal
+anshul.sangal
+adit.goel
+muddu.srikanth
+sravani.sasubilli
+priyadarsini.mohanty
+pooja.gupta
+sai.swetha
+santosh.kumar
+gaurav.sharma
+rajesh.banka
+sumit.singh
+kumari.preeti
+rupinder.singh
+rishi.niranjan
+roshan.kumar
+abhishek.sharma1
+ashish.singh
+nisha.agarwal
+mohita.bhatt
+udit.aditya
+vikas.verma2
+satish.kumar
+anil.kumar2
+shubham.jain
+ram.rustagi
+balram.kirar
+chirag.ahooja
+akshay.aryan
+abhishek.jain
+rakhi.tiwari
+abhay.singh
+akanksha.kumari
+ayush.jain
+rahul.yadav
+ravi.kumar
+vivek.sharma
+vanshika.singh
+manoj.verma
+surbhi.goel
+himanshu.kumar
+sonali.gupta
+ajay.yadav
+anshul.singh
+srila.dey
+upendra.yadav
+ayush.kumar
+siddhanth.talan
+adityamani.srivastava
+pranav.kumar
+richa.garg
+vishal.arora
+jitendra.pathak
+naman.saraswat
+deepesh.agrawal
+akash.deep
+deepak.bharti
+avinash.matcha
+saurabh.singh
+uttam.bhagat
+sukhjinder.saini
+abhishek.tyagi
+prateek.jain
+prasoon.pathak
+abhishek.pathak
+prateek.garg
+akash.harsh
+pradeep.thota
+kanishk.rastogi
+nishant.dutta
+darvin.gupta
+shubham.gupta2
+ajay.tomar
+hemraj.bairwa
+rohit.kasaudhan
+ambuj.singh
+supriya.mishra
+birjesh.rawat
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 06:00:06] "GET /Tools/home HTTP/1.1" 200 15567
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 06:00:03
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 06:01:05] "GET /Tools/home HTTP/1.1" 200 15603
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 06:01:02
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 06:02:08] "GET /Tools/home HTTP/1.1" 200 15283
+[29/Oct/2018 06:02:28] "POST /Tools/EnableS HTTP/1.1" 200 15283
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 06:01:49
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+Following is the writers file
+anil
+neeraj
+jagjeet.kaur
+arun
+jyoti
+jai
+neerajr
+achint
+ankit
+shalu
+manish
+abhishek
+uday
+shakti
+manmeet
+bibhu
+ambrish.kumar
+manpreet.kaur
+naveen
+narendra
+anil.chaudhary
+sumant
+ashwini
+srikanth.neelam
+satendra
+saurabh
+amrendra
+kanchan
+narendra
+kushal
+krishna.tayal
+rajesh.kumar
+kumar.rajesh
+karuna.saxena
+jagat.singh
+itisha.sachan
+saurabh.singhal
+nitesh.prashar
+ajit.singh
+saurabh.mathur
+suman
+manish.prasad
+prashant
+akshay.garg
+rabi.narayan
+ranjeet.maurya
+anurag.awasthi
+anjali.singh
+tuhin.kishore
+sudhir
+sanjay.kumar
+nikita.singh
+nishank.tyagi
+shyam.mohan
+vandna.goyal
+atul.sharma
+shikha.prasad
+ashish.durgapal
+sandeep.gupta
+eshu.goel
+jitesh.sehgal
+yograj
+ratesh.goyal
+rajesh.vishwakarma
+rakesh.kumar
+alok.shrivastava
+akansha.sharma
+vivek.lal
+rahul.gupta
+ratesh.goyal
+amit.sharma
+nishi.mishra
+akansha.sharma
+pooja.singh
+aditya.goyal
+rajat.sharma
+saumya.dubey
+neha.garg
+akashdeep.gupta
+surya.narayan
+kamal.gupta
+automation
+siddhant.talan
+tarun.singh
+shruti.vaish
+abhishweta.mohapatra
+priyank.gahtori
+tarun.singh
+kalpana.kumari
+vipul.saini
+abhishek.raj
+jharana.sa
+devendar.jain
+vaibhav.mittal
+sunil.bhardwaj
+anubhav.kumar
+vivek.dhiman
+harendra.kumar
+sandeep.shah
+preety.yadav
+suresh.thapliyal
+sachin.kumar
+lucky.kumar
+aditya.goyal
+anshul.sangal
+adit.goel
+muddu.srikanth
+sravani.sasubilli
+priyadarsini.mohanty
+pooja.gupta
+sai.swetha
+santosh.kumar
+gaurav.sharma
+rajesh.banka
+sumit.singh
+kumari.preeti
+rupinder.singh
+rishi.niranjan
+roshan.kumar
+abhishek.sharma1
+ashish.singh
+nisha.agarwal
+mohita.bhatt
+udit.aditya
+vikas.verma2
+satish.kumar
+anil.kumar2
+shubham.jain
+ram.rustagi
+balram.kirar
+chirag.ahooja
+akshay.aryan
+abhishek.jain
+rakhi.tiwari
+abhay.singh
+akanksha.kumari
+ayush.jain
+rahul.yadav
+ravi.kumar
+vivek.sharma
+vanshika.singh
+manoj.verma
+surbhi.goel
+himanshu.kumar
+sonali.gupta
+ajay.yadav
+anshul.singh
+srila.dey
+upendra.yadav
+ayush.kumar
+siddhanth.talan
+adityamani.srivastava
+pranav.kumar
+richa.garg
+vishal.arora
+jitendra.pathak
+naman.saraswat
+deepesh.agrawal
+akash.deep
+deepak.bharti
+avinash.matcha
+saurabh.singh
+uttam.bhagat
+sukhjinder.saini
+abhishek.tyagi
+prateek.jain
+prasoon.pathak
+abhishek.pathak
+prateek.garg
+akash.harsh
+pradeep.thota
+kanishk.rastogi
+nishant.dutta
+darvin.gupta
+shubham.gupta2
+ajay.tomar
+hemraj.bairwa
+rohit.kasaudhan
+ambuj.singh
+supriya.mishra
+birjesh.rawat
+
+Following is the writers file
+[29/Oct/2018 06:03:42] "GET /Tools/home HTTP/1.1" 200 15283
+[29/Oct/2018 06:03:50] "POST /Tools/EnableS HTTP/1.1" 200 15283
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 06:03:34
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+deepika.mohadikar
+anil
+neeraj
+jagjeet.kaur
+arun
+jai
+neerajr
+achint
+ankit
+shalu
+manish
+abhishek
+uday
+shakti
+manmeet
+bibhu
+ambrish.kumar
+manpreet.kaur
+naveen
+narendra
+anil.chaudhary
+sumant
+ashwini
+srikanth.neelam
+satendra
+saurabh
+amrendra
+kanchan
+narendra
+kushal
+krishna.tayal
+rajesh.kumar
+kumar.rajesh
+karuna.saxena
+jagat.singh
+itisha.sachan
+saurabh.singhal
+nitesh.prashar
+ajit.singh
+saurabh.mathur
+suman
+manish.prasad
+prashant
+akshay.garg
+rabi.narayan
+ranjeet.maurya
+anurag.awasthi
+anjali.singh
+tuhin.kishore
+sudhir
+sanjay.kumar
+nikita.singh
+nishank.tyagi
+shyam.mohan
+vandna.goyal
+atul.sharma
+shikha.prasad
+ashish.durgapal
+sandeep.gupta
+eshu.goel
+jitesh.sehgal
+yograj
+ratesh.goyal
+rajesh.vishwakarma
+rakesh.kumar
+alok.shrivastava
+akansha.sharma
+vivek.lal
+rahul.gupta
+ratesh.goyal
+amit.sharma
+nishi.mishra
+akansha.sharma
+pooja.singh
+aditya.goyal
+rajat.sharma
+saumya.dubey
+neha.garg
+akashdeep.gupta
+surya.narayan
+kamal.gupta
+automation
+siddhant.talan
+tarun.singh
+shruti.vaish
+abhishweta.mohapatra
+priyank.gahtori
+tarun.singh
+kalpana.kumari
+vipul.saini
+abhishek.raj
+jharana.sa
+devendar.jain
+vaibhav.mittal
+sunil.bhardwaj
+anubhav.kumar
+vivek.dhiman
+harendra.kumar
+sandeep.shah
+preety.yadav
+suresh.thapliyal
+sachin.kumar
+lucky.kumar
+aditya.goyal
+anshul.sangal
+adit.goel
+muddu.srikanth
+sravani.sasubilli
+priyadarsini.mohanty
+pooja.gupta
+sai.swetha
+santosh.kumar
+gaurav.sharma
+rajesh.banka
+sumit.singh
+kumari.preeti
+rupinder.singh
+rishi.niranjan
+roshan.kumar
+abhishek.sharma1
+ashish.singh
+nisha.agarwal
+mohita.bhatt
+udit.aditya
+vikas.verma2
+satish.kumar
+anil.kumar2
+shubham.jain
+ram.rustagi
+balram.kirar
+chirag.ahooja
+akshay.aryan
+abhishek.jain
+rakhi.tiwari
+abhay.singh
+akanksha.kumari
+ayush.jain
+rahul.yadav
+ravi.kumar
+vivek.sharma
+vanshika.singh
+manoj.verma
+surbhi.goel
+himanshu.kumar
+sonali.gupta
+ajay.yadav
+anshul.singh
+srila.dey
+upendra.yadav
+ayush.kumar
+siddhanth.talan
+adityamani.srivastava
+pranav.kumar
+richa.garg
+vishal.arora
+jitendra.pathak
+naman.saraswat
+deepesh.agrawal
+akash.deep
+deepak.bharti
+avinash.matcha
+saurabh.singh
+uttam.bhagat
+sukhjinder.saini
+abhishek.tyagi
+prateek.jain
+prasoon.pathak
+abhishek.pathak
+prateek.garg
+akash.harsh
+pradeep.thota
+kanishk.rastogi
+nishant.dutta
+darvin.gupta
+shubham.gupta2
+ajay.tomar
+hemraj.bairwa
+rohit.kasaudhan
+ambuj.singh
+supriya.mishra
+birjesh.rawat
+
+Following is the writers file
+[29/Oct/2018 06:05:40] "GET /Tools/home HTTP/1.1" 200 15283
+[29/Oct/2018 06:05:44] "POST /Tools/EnableS HTTP/1.1" 200 15283
+[29/Oct/2018 06:07:24] "POST /Tools/EnableS HTTP/1.1" 200 3998
+[29/Oct/2018 06:07:59] "GET /Tools/home HTTP/1.1" 200 15283
+[29/Oct/2018 06:10:13] "GET /Tools/home HTTP/1.1" 200 15283
+[29/Oct/2018 06:10:18] "POST /Tools/EnableS HTTP/1.1" 200 15283
+[29/Oct/2018 06:10:26] "GET /Tools/home HTTP/1.1" 200 3998
+[29/Oct/2018 06:11:44] "GET /Tools/home HTTP/1.1" 200 15283
+[29/Oct/2018 06:42:48] "POST /Tools/EnableS HTTP/1.1" 200 15280
+[29/Oct/2018 06:42:59] "GET /Tools/home HTTP/1.1" 200 3995
+[29/Oct/2018 06:43:20] "GET /Tools/home HTTP/1.1" 200 15280
+Not Found: /Tools/POST
+[29/Oct/2018 06:43:34] "GET /Tools/POST?EnableAll=Enable+All HTTP/1.1" 404 2721
+[29/Oct/2018 06:43:39] "POST /Tools/home HTTP/1.1" 200 15280
+[29/Oct/2018 06:44:10] "POST /Tools/home HTTP/1.1" 200 3995
+[29/Oct/2018 06:44:36] "GET /Tools/home HTTP/1.1" 200 15280
+[29/Oct/2018 06:44:38] "GET /Tools/home HTTP/1.1" 200 15280
+[29/Oct/2018 06:44:41] "GET /Tools/home HTTP/1.1" 200 15280
+[29/Oct/2018 06:45:12] "POST /Tools/home HTTP/1.1" 200 15280
+[29/Oct/2018 06:45:18] "GET /Tools/home HTTP/1.1" 200 3995
+[29/Oct/2018 06:45:20] "GET /Tools/home HTTP/1.1" 200 3995
+[29/Oct/2018 06:45:22] "GET /Tools/home HTTP/1.1" 200 3995
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 06:05:31
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+deepika.mohadikar
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+deepika.mohadikar
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+deepika.mohadikar
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+deepika.mohadikar
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+deepika.mohadikar
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+deepika.mohadikar
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+jai
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 06:47:05] "GET /Tools/home HTTP/1.1" 200 32228
+[29/Oct/2018 06:47:29] "GET /Tools/home HTTP/1.1" 200 15302
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 06:47:04
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 06:48:25] "GET /Tools/home HTTP/1.1" 200 15282
+[29/Oct/2018 06:48:45] "POST /Tools/home HTTP/1.1" 200 15282
+[29/Oct/2018 06:48:57] "GET /Tools/home HTTP/1.1" 200 30388
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 06:48:22
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+deepika.mohadikar
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 06:54:03] "GET /Tools/home HTTP/1.1" 200 15282
+[29/Oct/2018 06:54:11] "POST /Tools/home HTTP/1.1" 200 15282
+[29/Oct/2018 06:54:22] "GET /Tools/home HTTP/1.1" 200 15282
+[29/Oct/2018 06:54:27] "GET /Tools/home HTTP/1.1" 200 15282
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 06:54:00
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+sed: -e expression #1, char 8: unterminated `s' command
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 06:55:35] "GET /Tools/home HTTP/1.1" 200 15282
+[29/Oct/2018 06:55:37] "POST /Tools/home HTTP/1.1" 200 15282
+[29/Oct/2018 06:55:46] "GET /Tools/home HTTP/1.1" 200 15282
+[29/Oct/2018 06:55:50] "GET /Tools/home HTTP/1.1" 200 15282
+Not Found: /Tools/hom/e
+[29/Oct/2018 06:55:54] "GET /Tools/hom/e HTTP/1.1" 404 2703
+[29/Oct/2018 06:55:59] "GET /Tools/home HTTP/1.1" 200 15282
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 06:55:31
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+sed: -e expression #1, char 21: unterminated `s' command
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 07:00:18] "GET /Tools/home HTTP/1.1" 200 15282
+[29/Oct/2018 07:00:21] "POST /Tools/home HTTP/1.1" 200 15282
+[29/Oct/2018 07:00:28] "GET /Tools/home HTTP/1.1" 200 15365
+[29/Oct/2018 07:01:16] "POST /Tools/home HTTP/1.1" 200 15365
+[29/Oct/2018 07:02:28] "GET /Tools/home HTTP/1.1" 200 15610
+[29/Oct/2018 07:02:38] "GET /Tools/home HTTP/1.1" 200 15610
+[29/Oct/2018 07:02:51] "POST /Tools/home HTTP/1.1" 200 15610
+[29/Oct/2018 07:02:54] "POST /Tools/home HTTP/1.1" 200 15776
+[29/Oct/2018 07:03:05] "GET /Tools/home HTTP/1.1" 200 15776
+Not Found: /Tools/POST
+[29/Oct/2018 07:03:10] "GET /Tools/POST? HTTP/1.1" 404 2700
+[29/Oct/2018 07:03:16] "POST /Tools/home HTTP/1.1" 200 15776
+[29/Oct/2018 07:03:26] "GET /Tools/home HTTP/1.1" 200 15859
+[29/Oct/2018 07:03:52] "GET /Tools/home HTTP/1.1" 200 15866
+[29/Oct/2018 07:03:54] "GET /Tools/home HTTP/1.1" 200 15866
+[29/Oct/2018 07:03:58] "POST /Tools/EnableS HTTP/1.1" 200 15866
+[29/Oct/2018 07:04:07] "POST /Tools/EnableS HTTP/1.1" 200 16198
+[29/Oct/2018 07:04:11] "POST /Tools/EnableS HTTP/1.1" 200 16198
+[29/Oct/2018 07:04:13] "POST /Tools/EnableS HTTP/1.1" 200 16281
+[29/Oct/2018 07:05:50] "GET /Tools/home HTTP/1.1" 200 16295
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 07:00:09
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 07:23:58] "GET /Tools/home HTTP/1.1" 200 16330
+[29/Oct/2018 07:24:02] "POST /Tools/EnableS HTTP/1.1" 200 16330
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 07:23:40
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+[29/Oct/2018 07:26:09] "GET /RunTests/home HTTP/1.1" 200 8387
+[29/Oct/2018 07:26:12] "GET /Tools/home HTTP/1.1" 200 16330
+[29/Oct/2018 07:26:33] "POST /Tools/EnableS HTTP/1.1" 200 16330
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 07:26:07
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+<QueryDict: {}>
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+<QueryDict: {u'UserName': [u'jai'], u'csrfmiddlewaretoken': [u'NhoJMnd0s1Ctqsm33oX6nJLVUx3xH5gFE4cjYALWfKqp30GvcqeFubFulotQn3TM']}>
+[29/Oct/2018 07:31:18] "GET /Tools/home HTTP/1.1" 200 16330
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 07:31:11
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 07:33:03] "GET /Tools/home HTTP/1.1" 200 16330
+[29/Oct/2018 07:33:11] "POST /Tools/EnableS HTTP/1.1" 200 16330
+[29/Oct/2018 07:59:06] "POST /Tools/EnableS HTTP/1.1" 200 16828
+[29/Oct/2018 07:59:32] "POST /Tools/EnableS HTTP/1.1" 200 16828
+[29/Oct/2018 07:59:39] "POST /Tools/EnableS HTTP/1.1" 200 16911
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 07:32:51
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 08:01:34
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+[29/Oct/2018 08:02:52] "GET /Tools/home HTTP/1.1" 200 16929
+Not Found: /Tools/DisableS
+[29/Oct/2018 08:02:56] "POST /Tools/DisableS HTTP/1.1" 404 2713
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 08:02:40
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 08:03:42] "GET /Tools/home HTTP/1.1" 200 16929
+Forbidden (CSRF token missing or incorrect.): /Tools/DisableS
+[29/Oct/2018 08:03:44] "POST /Tools/DisableS HTTP/1.1" 403 2502
+[29/Oct/2018 08:03:49] "GET /Tools/home HTTP/1.1" 200 16929
+[29/Oct/2018 08:04:15] "GET /Tools/home HTTP/1.1" 200 17056
+[29/Oct/2018 08:04:16] "POST /Tools/DisableS HTTP/1.1" 200 17056
+[29/Oct/2018 08:04:21] "POST /Tools/DisableS HTTP/1.1" 200 17128
+[29/Oct/2018 08:04:23] "POST /Tools/DisableS HTTP/1.1" 200 17200
+[29/Oct/2018 08:04:25] "POST /Tools/DisableS HTTP/1.1" 200 17272
+[29/Oct/2018 08:04:43] "POST /Tools/EnableS HTTP/1.1" 200 17344
+[29/Oct/2018 08:04:45] "POST /Tools/EnableS HTTP/1.1" 200 17427
+[29/Oct/2018 09:46:00] "POST /Tools/EnableS HTTP/1.1" 200 17427
+[29/Oct/2018 09:46:23] "GET /Tools/home HTTP/1.1" 200 17510
+[29/Oct/2018 09:46:35] "GET /Tools/EnableS HTTP/1.1" 200 17510
+[29/Oct/2018 09:46:42] "GET /Tools/home HTTP/1.1" 200 17510
+[29/Oct/2018 09:46:52] "POST /Tools/DisableS HTTP/1.1" 200 17510
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 08:03:39
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+[29/Oct/2018 09:48:17] "POST /Tools/DisableS HTTP/1.1" 200 17570
+[29/Oct/2018 09:48:26] "GET /Tools/home HTTP/1.1" 200 17642
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 09:48:13
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:14:21
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:15:54
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+[29/Oct/2018 10:17:08] "GET /Tools/home HTTP/1.1" 200 17642
+[29/Oct/2018 10:17:17] "POST /Tools/DisableS HTTP/1.1" 302 0
+Not Found: /home
+[29/Oct/2018 10:17:17] "GET /home HTTP/1.1" 404 2272
+[29/Oct/2018 10:17:33] "POST /Tools/DisableS HTTP/1.1" 302 0
+Not Found: /home
+[29/Oct/2018 10:17:34] "GET /home HTTP/1.1" 404 2272
+[29/Oct/2018 10:17:43] "GET /Tools/home HTTP/1.1" 200 17642
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:16:54
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+peerforming enable for single persone
+global name 'ssh' is not defined
+deepika.mohadikar
+in
+peerforming enable for single persone
+global name 'ssh' is not defined
+deepika.mohadikar
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 10:18:32] "GET /Tools/home HTTP/1.1" 200 17642
+[29/Oct/2018 10:18:34] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 10:18:35] "GET /Tools/home HTTP/1.1" 200 17642
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:18:27
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+peerforming enable for single persone
+global name 'ssh' is not defined
+manish
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 10:22:47] "GET /Tools/home HTTP/1.1" 200 17642
+[29/Oct/2018 10:22:50] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 10:22:51] "GET /Tools/home HTTP/1.1" 200 17808
+[29/Oct/2018 10:22:53] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:22:54] "GET /Tools/home HTTP/1.1" 200 17880
+[29/Oct/2018 10:22:55] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:22:55] "GET /Tools/home HTTP/1.1" 200 17952
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:22:43
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 10:24:50] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:24:51] "GET /Tools/home HTTP/1.1" 200 18024
+[29/Oct/2018 10:24:56] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:24:56] "GET /Tools/home HTTP/1.1" 200 18096
+[29/Oct/2018 10:24:58] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:24:59] "GET /Tools/home HTTP/1.1" 200 18168
+[29/Oct/2018 10:25:12] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:25:13] "GET /Tools/home HTTP/1.1" 200 18232
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:24:32
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 10:25:54] "GET /Tools/home HTTP/1.1" 200 18232
+[29/Oct/2018 10:26:08] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:26:08] "GET /Tools/home HTTP/1.1" 200 18304
+[29/Oct/2018 10:26:11] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:26:12] "GET /Tools/home HTTP/1.1" 200 18376
+[29/Oct/2018 10:26:18] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:26:18] "GET /Tools/home HTTP/1.1" 200 18440
+[29/Oct/2018 10:26:24] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:26:25] "GET /Tools/home HTTP/1.1" 200 18504
+[29/Oct/2018 10:27:20] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 10:27:20] "GET /Tools/home HTTP/1.1" 200 18919
+[29/Oct/2018 10:27:34] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 10:27:34] "GET /Tools/home HTTP/1.1" 200 19002
+[29/Oct/2018 10:28:21] "GET /Tools/home HTTP/1.1" 200 19054
+[29/Oct/2018 10:28:26] "GET /Tools/home HTTP/1.1" 200 19054
+[29/Oct/2018 10:30:42] "GET /Tools/home HTTP/1.1" 200 15479
+[29/Oct/2018 10:30:46] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 10:30:46] "GET /Tools/home HTTP/1.1" 200 15562
+[29/Oct/2018 10:30:48] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:30:49] "GET /Tools/home HTTP/1.1" 200 15634
+[29/Oct/2018 10:31:08] "GET /Tools/home HTTP/1.1" 200 15634
+[29/Oct/2018 10:31:10] "GET /Tools/home HTTP/1.1" 200 15634
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:25:48
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 10:36:40] "GET /Tools/home HTTP/1.1" 200 15633
+[29/Oct/2018 10:36:47] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:36:47] "GET /Tools/home HTTP/1.1" 200 15753
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:36:38
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Internal Server Error: /Tools/home
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/automation/webapp/ToolBox/Tools/views.py", line 50, in home
+    listofWriters=final_outputW.split("\n")
+UnboundLocalError: local variable 'final_outputW' referenced before assignment
+[29/Oct/2018 10:37:14] "GET /Tools/home HTTP/1.1" 500 74388
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:37:09
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+
+[29/Oct/2018 10:37:46] "GET /Tools/home HTTP/1.1" 200 15953
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:37:37
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 10:38:26] "GET /Tools/home HTTP/1.1" 200 15754
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:38:22
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 10:39:38] "GET /Tools/home HTTP/1.1" 200 15754
+[29/Oct/2018 10:39:45] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 10:39:45] "GET /Tools/home HTTP/1.1" 200 16003
+[29/Oct/2018 10:39:54] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:39:55] "GET /Tools/home HTTP/1.1" 200 16075
+[29/Oct/2018 10:39:59] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:39:59] "GET /Tools/home HTTP/1.1" 200 16147
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:39:25
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 10:42:15] "GET /Tools/home HTTP/1.1" 200 15479
+[29/Oct/2018 10:42:21] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 10:42:22] "GET /Tools/home HTTP/1.1" 200 15562
+[29/Oct/2018 10:42:29] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 10:42:30] "GET /Tools/home HTTP/1.1" 200 15645
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:42:01
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 10:44:05] "GET /Tools/home HTTP/1.1" 200 15645
+[29/Oct/2018 10:44:08] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:44:08] "GET /Tools/home HTTP/1.1" 200 15691
+[29/Oct/2018 10:44:27] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:44:27] "GET /Tools/home HTTP/1.1" 200 15753
+[29/Oct/2018 10:45:07] "GET /Tools/home HTTP/1.1" 200 15479
+[29/Oct/2018 10:46:14] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 10:46:15] "GET /Tools/home HTTP/1.1" 200 15562
+[29/Oct/2018 10:46:19] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:46:19] "GET /Tools/home HTTP/1.1" 200 15624
+[29/Oct/2018 10:46:27] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 10:46:27] "GET /Tools/home HTTP/1.1" 200 15562
+Not Found: /Tools/POST
+[29/Oct/2018 10:46:46] "GET /Tools/POST?EnableAll=Enable+All HTTP/1.1" 404 2904
+[29/Oct/2018 10:46:53] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:46:53] "GET /Tools/home HTTP/1.1" 200 15624
+[29/Oct/2018 10:46:55] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:46:55] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:46:55] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 10:46:56] "GET /Tools/home HTTP/1.1" 200 15768
+[29/Oct/2018 11:15:07] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 11:15:07] "GET /Tools/home HTTP/1.1" 200 15562
+[29/Oct/2018 11:15:21] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 11:15:21] "GET /Tools/home HTTP/1.1" 200 15634
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 10:43:53
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+in
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+in
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+[29/Oct/2018 11:18:55] "GET /Tools/home HTTP/1.1" 200 15634
+[29/Oct/2018 11:18:59] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 11:18:59] "GET /Tools/home HTTP/1.1" 200 15634
+[29/Oct/2018 11:19:07] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 11:19:08] "GET /Tools/home HTTP/1.1" 200 15634
+[29/Oct/2018 11:19:21] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 11:19:22] "GET /Tools/home HTTP/1.1" 200 15634
+[29/Oct/2018 11:19:34] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 11:19:34] "GET /Tools/home HTTP/1.1" 200 15717
+[29/Oct/2018 11:19:35] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 11:19:36] "GET /Tools/home HTTP/1.1" 200 15717
+[29/Oct/2018 11:19:39] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 11:19:39] "GET /Tools/home HTTP/1.1" 200 15717
+[29/Oct/2018 11:23:43] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 11:23:44] "GET /Tools/home HTTP/1.1" 200 15811
+[29/Oct/2018 14:03:26] "GET /Tools/home HTTP/1.1" 200 15811
+[29/Oct/2018 14:03:27] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 37045
+[29/Oct/2018 14:03:27] "GET /static/js/bootstrap.js HTTP/1.1" 200 69707
+[29/Oct/2018 14:03:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[29/Oct/2018 14:03:27] "GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+Not Found: /favicon.ico
+[29/Oct/2018 14:03:27] "GET /favicon.ico HTTP/1.1" 404 2293
+[29/Oct/2018 14:03:47] "POST /Tools/EnableS HTTP/1.1" 302 0
+[29/Oct/2018 14:03:47] "GET /Tools/home HTTP/1.1" 200 15894
+[29/Oct/2018 14:04:33] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 14:04:33] "GET /Tools/home HTTP/1.1" 200 15894
+[29/Oct/2018 14:04:42] "POST /Tools/DisableS HTTP/1.1" 302 0
+[29/Oct/2018 14:04:42] "GET /Tools/home HTTP/1.1" 200 15894
+[29/Oct/2018 14:06:20] "GET /Tools/home HTTP/1.1" 200 4478
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 11:18:51
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+bash: echo-e: command not found
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+bash: echo-e: command not found
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+bash: echo-e: command not found
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+bash: echo-e: command not found
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+bash: echo-e: command not found
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+bash: echo-e: command not found
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+in
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+bash: echo-e: command not found
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2018 - 14:46:04
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Not Found: /
+[01/Nov/2018 12:42:13] "GET / HTTP/1.1" 404 2242
+Not Found: /favicon.ico
+[01/Nov/2018 12:42:13] "GET /favicon.ico HTTP/1.1" 404 2293
+Not Found: /tools
+[01/Nov/2018 12:42:23] "GET /tools HTTP/1.1" 404 2275
+[01/Nov/2018 12:42:27] "GET /Tools HTTP/1.1" 301 0
+[01/Nov/2018 12:42:27] "GET /Tools/ HTTP/1.1" 200 14
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2018 - 07:01:02
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 01, 2018 - 14:05:11
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f82847f5050>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 256, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 407, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 400, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/automation/webapp/ToolBox/ToolBox/urls.py", line 23, in <module>
+    url(r'^Tools/', include('Tools.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/automation/webapp/ToolBox/Tools/urls.py", line 5, in <module>
+    from . import views
+  File "/home/automation/webapp/ToolBox/Tools/views.py", line 35
+    xcept Exception as e:
+        ^
+SyntaxError: invalid syntax

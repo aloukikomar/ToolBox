@@ -1,0 +1,47 @@
+<!DOCTYPE html> {% load static %}
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+
+
+<style>
+    .head {
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+    }
+    
+    .sub-main-view {
+        margin: 1%;
+        width: 84%;
+        margin-top: 50px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="navbar navbar-inverse navbar-fixed-top head">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">ToolBox</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/RunTests/home">RunTests</a></li>
+                    <li><a href="/AddCases/home">AddCases</a></li>
+                    <li><a href="/Tools/home">Tools</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container sub-main-view">
+        {% block content %} {% endblock %}
+        <div>
+</body>
+
+
+</html>

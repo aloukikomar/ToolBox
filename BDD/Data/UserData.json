@@ -1,0 +1,15 @@
+{
+    "Netstorm": {
+        "username": "aloukik",
+        "password": "aloukik",
+        "url": "http://10.10.30.185",
+        "it": "",
+        "ScenarioName": "ToolBox_NS"
+    },
+    "Jenkins": {
+        "username": "aloukik",
+        "password": "Pass4",
+        "url": "http://10.10.30.185:8080",
+        "it": ""
+    }
+}

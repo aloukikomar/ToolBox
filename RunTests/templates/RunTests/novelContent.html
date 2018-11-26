@@ -1,0 +1,18 @@
+<style>
+    .Chapter {
+        margin-left: 10%;
+        background-color: rgba(220, 220, 220, 0.1);
+        padding: 1%;
+        width: 80%;
+        display: none;
+        transition: .15s;
+    }
+</style>
+<b>Chapter Index:</b>
+<br><br> {%for chapters in NovelContent%}
+<div class="tab2" onclick="hidetabs('{{chapters}}')" id="{{chapters}}">{{chapters}}
+
+</div>
+<div class="Chapter" id="{{chapters}}content">
+
+</div>{%endfor%}

@@ -1,0 +1,12 @@
+<table class="table table-striped"> {%for line in PageContent%}
+
+    <tr>
+        <td>
+            {{ forloop.counter }}
+        </td>
+        <td>
+            {{line}}
+        </td>
+    </tr>
+
+    {%endfor%}</table>

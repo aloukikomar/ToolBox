@@ -1,0 +1,80 @@
+{% extends "RunTests/header.html" %}
+{% block content %}
+<style>
+	.nopad{
+		padding:0px !important;
+}
+	.TC{
+		padding: 1%;
+		width :100%;
+            	background-color: rgb(252, 252, 252);
+            	box-shadow: 0px 1px 1px rgb(21, 19, 24);
+	}
+	.incheck{
+		margin: 2px;
+	}
+	.list{
+		height:420px;
+		overflow:auto;	
+	}
+	.console{
+		height:420px;
+		overflow:auto;
+		background-color:black;
+		color:white;
+		}
+	.stop{
+		color:white;
+		margin:1px;
+		height:30px;
+		width:100%;
+		background-color:#CD0A05;
+		border-style:none;
+	}
+        .stop:hover{
+                background: linear-gradient(#CD0A05, #FF0F05);
+                transition: .15s;
+                border: 1px solid white;
+                transform: scale(1.001, 1.1);
+	}
+
+        .start{
+		color:white;
+		margin:1px;
+                height:30px;
+                width:100%;
+                background-color:#228E01;
+		border-style:none;
+        }
+	.start:hover{
+            	background: linear-gradient(#228E01, #0DDD05);
+            	transition: .15s;
+            	border: 1px solid white;
+           	transform: scale(1.001, 1.1);
+}
+	.pan{
+		padding:1%;
+	}
+
+</style>
+<h3>Add Cases</h3>
+<hr>
+  <ul class="nav nav-tabs nav-justified">
+    <li class="active"><a data-toggle="tab" href="#TestCases">TestCases</a></li>
+    <li><a data-toggle="tab" href="#Iterations">Iterations</a></li>
+    <li><a data-toggle="tab" href="#View">View</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="TestCases" class="pan tab-pane fade in active">
+	{% include 'AddCases/Testcases.html' %}
+    </div>
+    <div id="Iterations" class="pan tab-pane fade">
+        {% include 'AddCases/Iterations.html' %}
+    </div>
+   <div id="View" class="pan tab-pane fade">
+        {% include 'AddCases/View.html' %}
+    </div>
+  </div>
+{% endblock %}
+

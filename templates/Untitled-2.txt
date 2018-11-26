@@ -1,0 +1,21 @@
+monitors 
+
+--what are monitors 
+what is netstorm
+how many types requests 
+how many bt in one session
+testsuite 
+testscript
+functional and non functional
+topology
+files in topology uses 
+teir grouping
+rtc 
+auto scaling
+agents diffrent types 
+lps
+restbased api can wNDC 
+inbund out bound ex
+mprof json
+port vs pid 
+load balancing  

@@ -1,0 +1,7 @@
+Start
+include UserData.json,Xpath.json 
+test webapplication
+open Netstorm GUI
+LookFor UserNameField and Enter username
+LookFor PasswordField and Enter password
+LookFor ClickButton and Click

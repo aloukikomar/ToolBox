@@ -1,0 +1,94 @@
+nohup: ignoring input
+[12/Nov/2018 07:27:21] "GET /Tools/home HTTP/1.1" 200 12992
+[12/Nov/2018 07:27:30] "POST /Tools/EnableS HTTP/1.1" 302 0
+[12/Nov/2018 07:27:31] "GET /Tools/home HTTP/1.1" 200 13075
+[12/Nov/2018 07:27:37] "POST /Tools/EnableAll HTTP/1.1" 302 0
+[12/Nov/2018 07:27:38] "GET /Tools/home HTTP/1.1" 200 25269
+[12/Nov/2018 07:27:41] "POST /Tools/DisableAll HTTP/1.1" 302 0
+[12/Nov/2018 07:27:41] "GET /Tools/home HTTP/1.1" 200 13163
+[12/Nov/2018 07:27:48] "POST /Tools/EnableS HTTP/1.1" 302 0
+[12/Nov/2018 07:27:49] "GET /Tools/home HTTP/1.1" 200 13246
+[12/Nov/2018 07:28:03] "POST /Tools/EnableS HTTP/1.1" 302 0
+[12/Nov/2018 07:28:03] "GET /Tools/home HTTP/1.1" 200 13329
+[12/Nov/2018 07:29:22] "GET /Tools/home HTTP/1.1" 200 13329
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 12, 2018 - 07:27:04
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Going to enable commit on CVS server
+
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Going to dissable_commit on cvs server
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Found request enable
+Conncet to 10.10.30.23
+connected
+peerforming enable for single persone
+
+Following is the writers file
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Conncet to 10.10.30.23
+connected
+Following is the readers file
+Following is the writers file
+None
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 12, 2018 - 07:30:26
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 12, 2018 - 07:30:56
+Django version 1.11.15, using settings 'ToolBox.settings'
+Starting development server at http://10.10.30.185:5000/
+Quit the server with CONTROL-C.
